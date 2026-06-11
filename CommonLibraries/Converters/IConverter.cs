@@ -10,8 +10,12 @@ namespace Ricardo.CommonLibraries.Converters
     /// <typeparam name="TSourceClass">The type of the source object.</typeparam>
     /// <typeparam name="TResultClass">The type of the result object.</typeparam>
     public interface IConverter<in TSourceClass, out TResultClass>
-        where TSourceClass : class
-        where TResultClass : class
     {
+        /// <summary>
+        /// Converts the specified source object to the result type.
+        /// </summary>
+        /// <param name="source">The source object to convert.</param>
+        /// <returns>The converted object.</returns>
+        public TResultClass Convert(TSourceClass source);
     }
 }

@@ -5,7 +5,9 @@
 namespace Ricardo.CommonLibraries.Converters
 {
     /// <summary>
-    /// Defines the interface for a converter that can convert between different types of class properties. This interface is intended to be used for converting properties of classes, rather than entire classes. The conversion logic should be implemented in the classes that implement this interface.
+    /// Defines the interface for a converter that can convert between different types of class properties.
+    /// This interface is intended to be used for converting properties of classes, rather than entire classes.
+    /// The conversion logic should be implemented in the classes that implement this interface.
     /// </summary>
     /// <typeparam name="TSourceClass">The type of the source class.</typeparam>
     /// <typeparam name="TDestinationClass">The type of the destination class.</typeparam>
