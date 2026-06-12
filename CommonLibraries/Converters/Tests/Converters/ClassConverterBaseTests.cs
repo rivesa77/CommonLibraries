@@ -1,5 +1,5 @@
-﻿// <copyright file="ClassConverterBaseTests.cs" company="PlaceholderCompany">
-// Copyright (c) PlaceholderCompany. All rights reserved.
+﻿// <copyright file="ClassConverterBaseTests.cs" company="Ricardo">
+// Copyright (c) Ricardo. All rights reserved.
 // </copyright>
 
 namespace Ricardo.CommonLibraries.Tests.Converters
