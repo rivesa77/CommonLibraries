@@ -4,6 +4,7 @@
 
 namespace Ricardo.CommonLibraries.Tests.Converters
 {
+    using FluentAssertions;
     using Microsoft.VisualStudio.TestTools.UnitTesting;
     using Ricardo.CommonLibraries.Converters;
     using Ricardo.CommonLibraries.Converters.Fakes;
@@ -49,12 +50,18 @@ namespace Ricardo.CommonLibraries.Tests.Converters
             };
 
             // Act
-            FakeDestinationClass dest = Convert(source);
+            FakeDestinationClass result = this.Convert(source);
 
             // Assert
-            Assert.IsNotNull(dest);
-            Assert.AreEqual($"{FakeTestConstants.Name}{FakeTestConstants.TextSuffix}", dest.Name);
-            Assert.AreEqual(31, dest.Age);
+            FakeDestinationClass expectedResult = new FakeDestinationClass()
+            {
+                Name = $"{FakeTestConstants.Name}{FakeTestConstants.TextSuffix}",
+                Age = 31,
+            };
+
+            result
+                .Should()
+                .BeEquivalentTo(expectedResult);
         }
 
         /// <inheritdoc/>

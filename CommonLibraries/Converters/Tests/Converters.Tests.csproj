@@ -1,4 +1,11 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<!-- NuGet package reference.-->
+	<ItemGroup>
+	  <PackageReference Include="FluentAssertions" Version="8.10.0" />
+	</ItemGroup>
+
+	<!-- Project reference to the Converters project.-->	
 	<ItemGroup>
 		<ProjectReference Include="..\..\Converters.csproj" />
 	</ItemGroup>
