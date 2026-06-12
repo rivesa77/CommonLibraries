@@ -13,6 +13,7 @@ namespace Ricardo.CommonLibraries.Tests.Converters
 
     /// <inheritdoc/>
     [TestClass]
+    [TestCategory("Converters")]
     public class ClassConverterBaseTests :
         ClassConverterBase<
             FakeSourceClass,
@@ -48,7 +49,7 @@ namespace Ricardo.CommonLibraries.Tests.Converters
             };
 
             // Act
-            FakeDestinationClass dest = this.Convert(source);
+            FakeDestinationClass dest = Convert(source);
 
             // Assert
             Assert.IsNotNull(dest);

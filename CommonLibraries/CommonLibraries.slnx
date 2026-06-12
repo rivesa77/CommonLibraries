@@ -1,7 +1,0 @@
-<Solution>
-  <Folder Name="/Solution Items/">
-    <File Path="../Directory.Build.props" />
-  </Folder>
-  <Project Path="Converters.csproj" />
-  <Project Path="Converters/Tests/Converters.Tests.csproj" Id="51657c48-2bf7-401a-a7b4-8369f0ed5540" />
-</Solution>
