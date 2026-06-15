@@ -5,7 +5,7 @@
 namespace Ricardo.CommonLibraries.Converters
 {
     /// <inheritdoc/>
-    internal abstract class ClassPropertyConverterBase<
+    public abstract class ClassPropertyConverterBase<
             TSourceClass,
             TDestinationClass,
             TPropertyClass> :
