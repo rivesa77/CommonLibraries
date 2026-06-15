@@ -59,9 +59,9 @@ namespace Ricardo.CommonLibraries.Converters
                 return false;
             }
 
-            if (value is Array valuesString)
+            if (value is string stringValue)
             {
-                return valuesString.Length > 0;
+                return !string.IsNullOrEmpty(stringValue);
             }
 
             return !value.Equals(default(TSourceClass));

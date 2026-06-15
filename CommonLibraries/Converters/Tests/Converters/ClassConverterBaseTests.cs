@@ -40,7 +40,7 @@ namespace Ricardo.CommonLibraries.Tests.Converters
         /// class to the destination class.
         /// </summary>
         [TestMethod]
-        public void Convert_WithPropertyConverters_ReturnsConvertedClass()
+        public void Convert_WithValidPropertyConverters_ReturnsConvertedClass()
         {
             // Arrange
             FakeSourceClass source = new FakeSourceClass()
