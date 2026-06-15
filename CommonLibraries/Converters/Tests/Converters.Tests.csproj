@@ -2,7 +2,7 @@
 
 	<!-- NuGet package reference.-->
 	<ItemGroup>
-	  <PackageReference Include="FluentAssertions" Version="8.10.0" />
+	  <PackageReference Include="FluentAssertions" Version="7.2.0" />
 	</ItemGroup>
 
 	<!-- Project reference to the Converters project.-->	
