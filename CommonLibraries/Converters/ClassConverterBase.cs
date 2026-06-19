@@ -8,7 +8,7 @@ namespace Ricardo.CommonLibraries.Converters
     public abstract class ClassConverterBase<TSourceClass, TDestinationClass, TPropertyConverter> :
         IClassConverter<TSourceClass, TDestinationClass>
         where TSourceClass : class
-        where TDestinationClass : class
+        where TDestinationClass : class, new()
         where TPropertyConverter : IClassPropertyConverter<TSourceClass, TDestinationClass>
     {
         private readonly IEnumerable<TPropertyConverter> propertyConverters;
@@ -42,6 +42,9 @@ namespace Ricardo.CommonLibraries.Converters
         /// Initializes the <typeparamref name="TDestinationClass"/>.
         /// </summary>
         /// <returns>The initialized <typeparamref name="TDestinationClass"/>.</returns>
-        protected abstract TDestinationClass InitializeDestination();
+        protected virtual TDestinationClass InitializeDestination()
+        {
+            return new TDestinationClass();
+        }
     }
 }

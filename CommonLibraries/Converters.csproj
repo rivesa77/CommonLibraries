@@ -3,6 +3,5 @@
 	  <Compile Remove="Converters\Tests\**" />
 	  <EmbeddedResource Remove="Converters\Tests\**" />
 	  <None Remove="Converters\Tests\**" />
-	  <None Remove="Directory.Build.props" />
 	</ItemGroup>
 </Project>
