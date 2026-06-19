@@ -1,5 +1,5 @@
 ﻿// <copyright file="GlobalSuppressions.cs" company="Ricardo">
-// Copyright (c) Ricardo. All rights reserved.
+//     Copyright (c) Ricardo. All rights reserved.
 // </copyright>
 
 using System.Diagnostics.CodeAnalysis;

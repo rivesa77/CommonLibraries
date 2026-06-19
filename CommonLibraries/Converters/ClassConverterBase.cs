@@ -1,5 +1,5 @@
 ﻿// <copyright file="ClassConverterBase.cs" company="Ricardo">
-// Copyright (c) Ricardo. All rights reserved.
+//     Copyright (c) Ricardo. All rights reserved.
 // </copyright>
 
 namespace Ricardo.CommonLibraries.Converters
@@ -14,12 +14,12 @@ namespace Ricardo.CommonLibraries.Converters
         private readonly IEnumerable<TPropertyConverter> propertyConverters;
 
         /// <summary>
-        /// Initializes a new instance of the <see cref="ClassConverterBase{TSourceClass, TDestinationClass, TPropertyConverter}"/>
-        /// class with the specified property converters. The property converters are used to convert individual properties from the source
-        /// class to the destination class. The conversion logic for each property should be implemented in the classes that implement
-        /// the <see cref="IClassPropertyConverter{TSourceClass, TDestinationClass}"/> interface.
+        ///     Initializes a new instance of the <see cref="ClassConverterBase{TSourceClass, TDestinationClass, TPropertyConverter}"/>
+        ///     class with the specified property converters. The property converters are used to convert individual properties from the
+        ///     source class to the destination class. The conversion logic for each property should be implemented in the classes that
+        ///     implement the <see cref="IClassPropertyConverter{TSourceClass, TDestinationClass}"/> interface.
         /// </summary>
-        /// <param name="propertyConverters">The collection of <typeparamref name="TPropertyConverter"/>.</param>
+        /// <param name="propertyConverters"> The collection of <typeparamref name="TPropertyConverter"/>. </param>
         protected ClassConverterBase(IEnumerable<TPropertyConverter> propertyConverters)
         {
             this.propertyConverters = propertyConverters;
@@ -39,9 +39,9 @@ namespace Ricardo.CommonLibraries.Converters
         }
 
         /// <summary>
-        /// Initializes the <typeparamref name="TDestinationClass"/>.
+        ///     Initializes the <typeparamref name="TDestinationClass"/>.
         /// </summary>
-        /// <returns>The initialized <typeparamref name="TDestinationClass"/>.</returns>
+        /// <returns> The initialized <typeparamref name="TDestinationClass"/>. </returns>
         protected virtual TDestinationClass InitializeDestination()
         {
             return new TDestinationClass();

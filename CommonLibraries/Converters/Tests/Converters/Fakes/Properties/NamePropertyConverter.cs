@@ -1,5 +1,5 @@
 ﻿// <copyright file="NamePropertyConverter.cs" company="Ricardo">
-// Copyright (c) Ricardo. All rights reserved.
+//     Copyright (c) Ricardo. All rights reserved.
 // </copyright>
 
 namespace Ricardo.CommonLibraries.Converters.Fakes.Properties
@@ -8,7 +8,7 @@ namespace Ricardo.CommonLibraries.Converters.Fakes.Properties
     using Ricardo.CommonLibraries.Tests.Converters.Fakes;
 
     /// <summary>
-    /// Represents a property converter that converts the Name property from a <see cref="FakeSourceClass"/> instance.
+    ///     Represents a property converter that converts the Name property from a <see cref="FakeSourceClass"/> instance.
     /// </summary>
     internal class NamePropertyConverter : IFakeClassPropertyConverter
     {

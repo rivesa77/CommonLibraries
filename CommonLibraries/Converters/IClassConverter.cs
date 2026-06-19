@@ -1,5 +1,5 @@
 ﻿// <copyright file="IClassConverter.cs" company="Ricardo">
-// Copyright (c) Ricardo. All rights reserved.
+//     Copyright (c) Ricardo. All rights reserved.
 // </copyright>
 
 namespace Ricardo.CommonLibraries.Converters

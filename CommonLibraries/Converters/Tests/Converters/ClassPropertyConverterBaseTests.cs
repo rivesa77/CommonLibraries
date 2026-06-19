@@ -1,5 +1,5 @@
 ﻿// <copyright file="ClassPropertyConverterBaseTests.cs" company="Ricardo">
-// Copyright (c) Ricardo. All rights reserved.
+//     Copyright (c) Ricardo. All rights reserved.
 // </copyright>
 
 namespace Ricardo.CommonLibraries.Tests.Converters
@@ -18,7 +18,7 @@ namespace Ricardo.CommonLibraries.Tests.Converters
             string>
     {
         /// <summary>
-        /// Tests that the Convert method returns the expected result when a valid name is provided.
+        ///     Tests that the Convert method returns the expected result when a valid name is provided.
         /// </summary>
         [TestMethod]
         public void Convert_WithValidName_ReturnsExpectedResult()
@@ -43,7 +43,7 @@ namespace Ricardo.CommonLibraries.Tests.Converters
         }
 
         /// <summary>
-        /// Tests that the Convert method returns the expected result when a default property is provided.
+        ///     Tests that the Convert method returns the expected result when a default property is provided.
         /// </summary>
         [TestMethod]
         public void Convert_WithDefaultProperty_ReturnsExpectedResult()
@@ -62,7 +62,7 @@ namespace Ricardo.CommonLibraries.Tests.Converters
         }
 
         /// <summary>
-        /// Tests that the Convert method returns the expected result when a valid name is provided.
+        ///     Tests that the Convert method returns the expected result when a valid name is provided.
         /// </summary>
         [TestMethod]
         public void Convert_WithEmptyProperty_ReturnsExpectedResult()

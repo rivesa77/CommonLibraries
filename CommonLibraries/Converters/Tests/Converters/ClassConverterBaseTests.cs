@@ -1,5 +1,5 @@
 ﻿// <copyright file="ClassConverterBaseTests.cs" company="Ricardo">
-// Copyright (c) Ricardo. All rights reserved.
+//     Copyright (c) Ricardo. All rights reserved.
 // </copyright>
 
 namespace Ricardo.CommonLibraries.Tests.Converters
@@ -28,7 +28,7 @@ namespace Ricardo.CommonLibraries.Tests.Converters
          ];
 
         /// <summary>
-        /// Initializes a new instance of the <see cref="ClassConverterBaseTests"/> class.
+        ///     Initializes a new instance of the <see cref="ClassConverterBaseTests"/> class.
         /// </summary>
         public ClassConverterBaseTests()
             : base(PropertyConverters)
@@ -36,8 +36,8 @@ namespace Ricardo.CommonLibraries.Tests.Converters
         }
 
         /// <summary>
-        /// Tests that the <see cref="ClassConverterBase{TSource, TDestination, TPropertyConverter}.Convert(TSource)"/> method converts the source
-        /// class to the destination class.
+        ///     Tests that the <see cref="ClassConverterBase{TSource, TDestination, TPropertyConverter}.Convert(TSource)"/> method converts
+        ///     the source class to the destination class.
         /// </summary>
         [TestMethod]
         public void Convert_WithValidPropertyConverters_ReturnsConvertedClass()
