@@ -1,7 +1,16 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+	  <AssemblyName>Ricardo.CommonLibraries.Converters</AssemblyName>
+	  <AssemblyTitle>Ricardo.CommonLibraries.Converters</AssemblyTitle>
+	  <Title>CommonLibraries</Title>
+	  <Version>1.0.2</Version>
+	  <Copyright>Ricardo Company</Copyright>
+	</PropertyGroup>
+	
 	<ItemGroup>
 	  <Compile Remove="Converters\Tests\**" />
 	  <EmbeddedResource Remove="Converters\Tests\**" />
 	  <None Remove="Converters\Tests\**" />
 	</ItemGroup>
+	
 </Project>
