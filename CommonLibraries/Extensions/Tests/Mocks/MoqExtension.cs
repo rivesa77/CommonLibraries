@@ -1,10 +1,10 @@
-﻿// <copyright file="MoqExtension.cs" company="PlaceholderCompany">
-//     Copyright (c) PlaceholderCompany. All rights reserved.
+﻿// <copyright file="MoqExtension.cs" company="Ricardo">
+//     Copyright (c) Ricardo. All rights reserved.
 // </copyright>
 
 namespace Ricardo.CommonLibraries.Extensions.Tests.Mocks
 {
-    using global::Moq;
+    using Moq;
 
     /// <summary>
     ///     Moq extensions.

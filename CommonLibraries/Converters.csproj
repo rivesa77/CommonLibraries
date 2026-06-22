@@ -9,8 +9,11 @@
 	
 	<ItemGroup>
 	  <Compile Remove="Converters\Tests\**" />
+	  <Compile Remove="Extensions\**" />
 	  <EmbeddedResource Remove="Converters\Tests\**" />
+	  <EmbeddedResource Remove="Extensions\**" />
 	  <None Remove="Converters\Tests\**" />
+	  <None Remove="Extensions\**" />
 	</ItemGroup>
 	
 </Project>
