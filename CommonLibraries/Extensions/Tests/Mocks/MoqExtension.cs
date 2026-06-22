@@ -20,7 +20,7 @@ namespace Ricardo.CommonLibraries.Extensions.Tests.Mocks
         public static Mock<T> VerifyAllAndOtherCalls<T>(this Mock<T> mock)
             where T : class
         {
-            mock.Verify();
+            mock.VerifyAll();
             mock.VerifyNoOtherCalls();
 
             return mock;
