@@ -6,7 +6,6 @@
 		<EnableNETAnalyzers>true</EnableNETAnalyzers>
 		<RunAnalyzersDuringBuild>true</RunAnalyzersDuringBuild>
 		<RootNamespace>Ricardo.CommonLibraries</RootNamespace>
-		<Version>1.0.1</Version>
 	</PropertyGroup>
 
 	<ItemGroup>
