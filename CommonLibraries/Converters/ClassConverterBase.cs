@@ -6,43 +6,25 @@ namespace Ricardo.CommonLibraries.Converters
 {
     /// <inheritdoc/>
     public abstract class ClassConverterBase<TSourceClass, TDestinationClass, TPropertyConverter> :
-        IClassConverter<TSourceClass, TDestinationClass>
+        ClassConverterNonInitializeBase<TSourceClass, TDestinationClass, TPropertyConverter>
         where TSourceClass : class
         where TDestinationClass : class, new()
         where TPropertyConverter : IClassPropertyConverter<TSourceClass, TDestinationClass>
     {
-        private readonly IEnumerable<TPropertyConverter> propertyConverters;
-
         /// <summary>
-        ///     Initializes a new instance of the <see cref="ClassConverterBase{TSourceClass, TDestinationClass, TPropertyConverter}"/>
-        ///     class with the specified property converters. The property converters are used to convert individual properties from the
-        ///     source class to the destination class. The conversion logic for each property should be implemented in the classes that
-        ///     implement the <see cref="IClassPropertyConverter{TSourceClass, TDestinationClass}"/> interface.
+        ///     Initializes a new instance of the <see cref="ClassConverterBase{TSourceClass, TDestinationClass, TPropertyConverter}"/> class.
         /// </summary>
-        /// <param name="propertyConverters"> The collection of <typeparamref name="TPropertyConverter"/>. </param>
+        /// <param name="propertyConverters"> The collection of <see cref="TPropertyConverter"/>. </param>
         protected ClassConverterBase(IEnumerable<TPropertyConverter> propertyConverters)
+            : base(propertyConverters)
         {
-            this.propertyConverters = propertyConverters;
-        }
-
-        /// <inheritdoc/>
-        public TDestinationClass Convert(TSourceClass source)
-        {
-            TDestinationClass result = this.InitializeDestination();
-
-            foreach (TPropertyConverter propertyConverter in this.propertyConverters)
-            {
-                propertyConverter.Convert(source, result);
-            }
-
-            return result;
         }
 
         /// <summary>
         ///     Initializes the <typeparamref name="TDestinationClass"/>.
         /// </summary>
         /// <returns> The initialized <typeparamref name="TDestinationClass"/>. </returns>
-        protected virtual TDestinationClass InitializeDestination()
+        protected override TDestinationClass InitializeDestination()
         {
             return new TDestinationClass();
         }
