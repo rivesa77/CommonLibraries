@@ -5,6 +5,7 @@
 		<EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
 		<EnableNETAnalyzers>true</EnableNETAnalyzers>
 		<RunAnalyzersDuringBuild>true</RunAnalyzersDuringBuild>
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
 		<RootNamespace>Ricardo.CommonLibraries</RootNamespace>
 	</PropertyGroup>
 
