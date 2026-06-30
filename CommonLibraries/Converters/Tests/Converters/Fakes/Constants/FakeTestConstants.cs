@@ -1,8 +1,8 @@
-﻿// <copyright file="FakeTestConstants.cs" company="Ricardo">
+// <copyright file="FakeTestConstants.cs" company="Ricardo">
 //     Copyright (c) Ricardo. All rights reserved.
 // </copyright>
 
-namespace Ricardo.CommonLibraries.Converters.Fakes.Constants
+namespace Ricardo.CommonLibraries.Converters.Test.Converters.Fakes.Constants
 {
     /// <summary>
     ///     Contains constant values used in the fake converter tests.

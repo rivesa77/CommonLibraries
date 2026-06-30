@@ -1,8 +1,8 @@
-﻿// <copyright file="ClassConverterNonInitializeBase.cs" company="Ricardo">
+// <copyright file="ClassConverterNonInitializeBase.cs" company="Ricardo">
 //     Copyright (c) Ricardo. All rights reserved.
 // </copyright>
 
-namespace Ricardo.CommonLibraries.Converters
+namespace Ricardo.CommonLibraries.Converters.Converters
 {
     using System.Collections.Generic;
 

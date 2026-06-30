@@ -1,13 +1,13 @@
-﻿// <copyright file="ClassPropertyConverterBaseTests.cs" company="Ricardo">
+// <copyright file="ClassPropertyConverterBaseTests.cs" company="Ricardo">
 //     Copyright (c) Ricardo. All rights reserved.
 // </copyright>
 
-namespace Ricardo.CommonLibraries.Tests.Converters
+namespace Ricardo.CommonLibraries.Converters.Test.Converters
 {
     using FluentAssertions;
-    using Ricardo.CommonLibraries.Converters;
-    using Ricardo.CommonLibraries.Converters.Fakes.Constants;
-    using Ricardo.CommonLibraries.Tests.Converters.Fakes;
+    using Ricardo.CommonLibraries.Converters.Converters;
+    using Ricardo.CommonLibraries.Converters.Test.Converters.Fakes;
+    using Ricardo.CommonLibraries.Converters.Test.Converters.Fakes.Constants;
 
     /// <inheritdoc/>
     [TestClass]

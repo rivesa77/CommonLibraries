@@ -1,8 +1,8 @@
-﻿// <copyright file="ClassConverterBase.cs" company="Ricardo">
+// <copyright file="ClassConverterBase.cs" company="Ricardo">
 //     Copyright (c) Ricardo. All rights reserved.
 // </copyright>
 
-namespace Ricardo.CommonLibraries.Converters
+namespace Ricardo.CommonLibraries.Converters.Converters
 {
     /// <inheritdoc/>
     public abstract class ClassConverterBase<TSourceClass, TDestinationClass, TPropertyConverter> :

@@ -1,8 +1,8 @@
-﻿// <copyright file="IConverter.cs" company="Ricardo">
+// <copyright file="IConverter.cs" company="Ricardo">
 //     Copyright (c) Ricardo. All rights reserved.
 // </copyright>
 
-namespace Ricardo.CommonLibraries.Converters
+namespace Ricardo.CommonLibraries.Converters.Converters
 {
     /// <summary>
     ///     Defines the interface for a converter that can convert between different types.

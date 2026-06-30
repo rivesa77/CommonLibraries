@@ -1,9 +1,12 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-	<!-- NuGet package reference.-->
-	<ItemGroup>
+	<PropertyGroup>
 		<AssemblyName>Ricardo.CommonLibraries.Converters.Test</AssemblyName>
 		<AssemblyTitle>Ricardo.CommonLibraries.Converters.Test</AssemblyTitle>
+	</PropertyGroup>
+
+	<!-- NuGet package reference.-->
+	<ItemGroup>
 		<PackageReference Include="FluentAssertions" Version="7.2.0" />
 	</ItemGroup>
 

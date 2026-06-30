@@ -1,8 +1,8 @@
-﻿// <copyright file="FakeSourceClass.cs" company="Ricardo">
+// <copyright file="FakeSourceClass.cs" company="Ricardo">
 //     Copyright (c) Ricardo. All rights reserved.
 // </copyright>
 
-namespace Ricardo.CommonLibraries.Tests.Converters.Fakes
+namespace Ricardo.CommonLibraries.Converters.Test.Converters.Fakes
 {
     /// <summary>
     ///     Represents a fake source class for testing purposes.

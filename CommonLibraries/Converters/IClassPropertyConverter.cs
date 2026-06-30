@@ -1,8 +1,8 @@
-﻿// <copyright file="IClassPropertyConverter.cs" company="Ricardo">
+// <copyright file="IClassPropertyConverter.cs" company="Ricardo">
 //     Copyright (c) Ricardo. All rights reserved.
 // </copyright>
 
-namespace Ricardo.CommonLibraries.Converters
+namespace Ricardo.CommonLibraries.Converters.Converters
 {
     /// <summary>
     ///     Defines the interface for a converter that can convert between different types of class properties. This interface is intended
