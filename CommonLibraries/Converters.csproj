@@ -1,9 +1,9 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
-	  <AssemblyName>CommonLibraries.Converters</AssemblyName>
-	  <AssemblyTitle>CommonLibraries.Converters</AssemblyTitle>
+	  <AssemblyName>Ricardo.CommonLibraries.Converters</AssemblyName>
+	  <AssemblyTitle>Ricardo.CommonLibraries.Converters</AssemblyTitle>
 	  <Title>Converters</Title>
-	  <Version>1.0.2</Version>
+	  <Version>1.0.3</Version>
 	  <Copyright>Ricardo Company</Copyright>
 	</PropertyGroup>
 	

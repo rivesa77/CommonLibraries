@@ -4,8 +4,8 @@
 		<TargetFramework>net10.0</TargetFramework>
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>enable</Nullable>
-		<AssemblyName>CommonLibraries.Extensions</AssemblyName>
-		<AssemblyTitle>CommonLibraries.Extensions</AssemblyTitle>
+		<AssemblyName>Ricardo.CommonLibraries.Extensions</AssemblyName>
+		<AssemblyTitle>Ricardo.CommonLibraries.Extensions</AssemblyTitle>
 		<Title>Extensions</Title>
 		<Version>1.0.2</Version>
 		<Copyright>Ricardo Company</Copyright>
