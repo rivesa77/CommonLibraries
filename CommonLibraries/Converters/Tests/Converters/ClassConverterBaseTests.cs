@@ -35,7 +35,7 @@ namespace Ricardo.CommonLibraries.Converters.Test.Converters
         }
 
         /// <summary>
-        ///     Tests that the <see cref="ClassConverterBase{TSource, TDestination, TPropertyConverter}.Convert(TSource)"/> method converts
+        ///     Tests that the <see cref="ClassConverterNonInitializeBase{FakeSourceClass, FakeDestinationClass, IFakeClassPropertyConverter}.Convert(FakeSourceClass)"/> method converts
         ///     the source class to the destination class.
         /// </summary>
         [TestMethod]

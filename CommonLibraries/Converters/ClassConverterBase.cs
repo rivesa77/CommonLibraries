@@ -14,7 +14,7 @@ namespace Ricardo.CommonLibraries.Converters.Converters
         /// <summary>
         ///     Initializes a new instance of the <see cref="ClassConverterBase{TSourceClass, TDestinationClass, TPropertyConverter}"/> class.
         /// </summary>
-        /// <param name="propertyConverters"> The collection of <see cref="TPropertyConverter"/>. </param>
+        /// <param name="propertyConverters"> The collection of <typeparamref name="TPropertyConverter"/>. </param>
         protected ClassConverterBase(IEnumerable<TPropertyConverter> propertyConverters)
             : base(propertyConverters)
         {
